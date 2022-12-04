@@ -1,0 +1,85 @@
+.base {
+    height: 600px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.base .sub_background {
+    position: absolute;
+    width: 100%;
+    height: 480px;
+    bottom: 0px;
+}
+
+.base .logo {
+    position: absolute;
+    top: 60px;
+    z-index: 1;
+    border-radius: 100px;
+}
+
+.base .login_form {
+    position: absolute;
+    bottom: 60px;
+    width: 100%;
+}
+
+.base .login_form ::placeholder {
+    color: black;
+}
+
+.base .login_form input {
+    width: 95%;
+    height: 25px;
+    border-radius: 3px;
+    border: none;
+    padding-left: 15px;
+}
+
+.base .login_form button {
+    width: 100%;
+    height: 28px;
+    border: 1px solid black;
+    border-radius: 12px;
+}
+
+
+.base .login_form .mk{
+    position: relative;
+}
+
+.base .login_form .eye_btn {
+    position: absolute;
+    width: 32px;
+    font-size: 20px;
+    top: 61px;
+    right: 0px;
+    background: none;
+    padding-right: 40px;
+    
+}
+
+.submit_btn {
+    width: 200px !important;
+}
+
+.submit_btn:hover {
+    background-color: gray;
+}
+
+.submit_btn a{
+    color: #0A3730;
+    display: block;
+    text-decoration: none;
+    width: 100%;
+    font-weight: 700;
+}
+
+.login_form{
+    text-align: center;
+}
+
+h1 {
+    color: white;
+}
